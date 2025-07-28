@@ -1,0 +1,48 @@
+/* src/assets/styles/themes/colombia.css */
+
+.fury-dark .dashboard-container {
+  font-family: 'Open Sans', sans-serif;
+  color: #333; /* Ensure text is readable on light background */
+}
+
+.fury-dark .kpi-card {
+  background-color: #ffffff; /* Light background */
+  color: #333; /* Dark text */
+  border: 1px solid #ccc;
+  border-left: 5px solid #4caf50; /* Accent color for Colombia (Green) */
+}
+
+.fury-dark .kpi-card h2, .fury-dark .kpi-card .kpi-value {
+    color: #388e3c; /* Darker green */
+}
+
+/* Table styles for Colombia theme (Green - Not Dark) */
+.fury-dark .table-container {
+    background-color: #ffffff; /* Light background */
+    color: #333; /* Dark text */
+}
+
+.fury-dark .table-container th {
+    background-color: #e8f5e9; /* Light green */
+    color: #1b5e20; /* Dark green text */
+}
+
+.fury-dark .table-container td {
+    border-bottom-color: #e0e0e0; /* Light grey border */
+    color: #333; /* Dark text */
+}
+
+.fury-dark .pagination-controls button {
+    border-color: #a5d6a7; /* Light green border */
+    background-color: #e8f5e9; /* Light green */
+    color: #1b5e20; /* Dark green text */
+}
+
+.fury-dark .pagination-controls button:not(:disabled):hover {
+    background-color: #c8e6c9; /* Slightly darker green on hover */
+    color: #1b5e20; /* Ensure text color remains dark */
+}
+
+.fury-dark .table-container input[type="text"] {
+    border-color: #a5d6a7; /* Green border for input */
+}

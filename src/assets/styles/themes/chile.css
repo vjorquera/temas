@@ -1,0 +1,41 @@
+/* src/assets/styles/themes/chile.css */
+
+.fury-default .dashboard-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fury-default .kpi-card {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-left: 5px solid #2196f3; /* Accent color for Chile */
+}
+
+.fury-default .kpi-card h2, .fury-default .kpi-card .kpi-value {
+    color: #1976d2; /* Darker blue */
+}
+
+/* Table styles for Chile theme */
+.fury-default .table-container {
+    background-color: #ffffff;
+}
+
+.fury-default .table-container th {
+    background-color: #e3f2fd; /* Light blue */
+    color: #1a237e; /* Dark blue text */
+}
+
+.fury-default .table-container td {
+    border-bottom-color: #e0e0e0;
+    color: #333;
+}
+
+.fury-default .pagination-controls button {
+    border-color: #b0bec5; /* Light grey blue */
+    background-color: #e3f2fd; /* Light blue */
+    color: #1a237e; /* Dark blue text */
+}
+
+.fury-default .pagination-controls button:not(:disabled):hover {
+    background-color: #bbdefb; /* Lighter blue on hover */
+}

@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+ * Import theme-specific stylesheets.
+ * The logic in app.component.ts will still apply the correct body class
+ * to activate the styles defined in these files.
+ */
+@import 'assets/styles/themes/chile.css';
+@import 'assets/styles/themes/colombia.css';
+@import 'assets/styles/themes/peru.css';
+
+/* You can still keep any truly global styles here if needed */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
